@@ -11,6 +11,7 @@ information gathering and keep you from getting lost.
 
 **Example**
 
+```text
 Q. What kind of data structure is this?
 	A. This is a tree.
 
@@ -25,6 +26,7 @@ Q. What kind of data structure is this?
 
 			Q. What's the difference between tree and trie?
 				A. A [trie](https://en.wikipedia.org/wiki/Trie) is a specific type of tree.  Each node in a trie, re**TRIE**val tree, is part of a sequence that is added to at each step.  
+```
 
 
 ## Notes
