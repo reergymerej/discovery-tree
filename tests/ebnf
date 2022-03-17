@@ -1,0 +1,20 @@
+DiscoveryTree := {Entity}*
+                | {Entity, EmptyLine}*
+
+Entity := {Whitespace}*, EntityMarker, Body, EOL
+
+Whitespace := '\s' | '\t'
+
+EntityMarker := EntityIdentifier, EntityDelimiter, {Whitespace}+
+
+EntityIdentifier := 'Q' | 'A'
+
+EntityDelimiter := '.' | ':'
+
+Body := {Content}+, EOL
+
+Content := - EOL
+
+EOL := '\n'
+
+EmptyLine := {Whitespace}*, EOL
