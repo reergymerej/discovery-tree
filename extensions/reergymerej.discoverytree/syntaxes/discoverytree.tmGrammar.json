@@ -1,0 +1,28 @@
+{
+  "scopeName": "scope.discoverytree",
+  "patterns": [
+    {
+      "include": "#question"
+    },
+    {
+      "include": "#answer"
+    },
+    {
+      "include": "#body"
+    }
+  ],
+  "repository": {
+    "question": {
+      "match": "^\\s*Q(.|:)\\s+",
+      "name": "keyword.control"
+    },
+    "answer": {
+      "match": "^\\s+A(.|:)\\s+",
+      "name": "keyword.letter"
+    },
+    "body": {
+      "match": "[^\\s].+$",
+      "name": "markup"
+    }
+  }
+}

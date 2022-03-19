@@ -1,0 +1,34 @@
+{
+    "name": "reergymerej.discoverytree",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": ">=1.65.2"
+    },
+    "publisher": "Jeremy Greer <jex.grizzle@gmail.com>",
+    "contributes": {
+        "languages": [
+            {
+                "id": "discoverytree",
+                "aliases": [
+                    "DiscoveryTree",
+                    "Discovery Tree",
+                    "reergymerej.discoverytree"
+                ],
+                "extensions": [
+                    ".disco",
+                    ".discot",
+                    ".discovery",
+                    ".discoverytree",
+                    ".disct"
+                ]
+            }
+        ],
+        "grammars": [
+            {
+                "language": "discoverytree",
+                "scopeName": "scope.discoverytree",
+                "path": "./syntaxes/discoverytree.tmGrammar.json"
+            }
+        ]
+    }
+}

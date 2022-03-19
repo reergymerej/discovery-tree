@@ -1,0 +1,71 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN"   "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0" >
+<!-- Generated via Iro -->
+<dict>
+  <key>fileTypes</key>
+  <array> 
+    <string>discoverytree</string>
+   </array>
+  <key>name</key>
+  <string>discoverytree</string>
+  <key>patterns</key>
+  <array> 
+    <dict>
+      <key>include</key>
+      <string>#main</string>
+    </dict>
+   </array>
+  <key>scopeName</key>
+  <string>source.discoverytree</string>
+  <key>uuid</key>
+  <string></string>
+  <key>repository</key>
+  <dict>
+    <key>main</key>
+    <dict>
+      <key>patterns</key>
+      <array> 
+        <dict>
+          <key>include</key>
+          <string>#q</string>
+        </dict>
+        <dict>
+          <key>include</key>
+          <string>#a</string>
+        </dict>
+       </array>
+    </dict>
+    <key>a</key>
+    <dict>
+      <key>patterns</key>
+      <array> 
+        <dict>
+          <key>match</key>
+          <string>(^\s+A.\s+)</string>
+          <key>name</key>
+          <string>keyword.discoverytree</string>
+        </dict>
+       </array>
+    </dict>
+    <key>multi_line_comment__1</key>
+    <dict>
+      <key>patterns</key>
+      <array> 
+       </array>
+    </dict>
+    <key>q</key>
+    <dict>
+      <key>patterns</key>
+      <array> 
+        <dict>
+          <key>match</key>
+          <string>(Q.\s+)</string>
+          <key>name</key>
+          <string>keyword.discoverytree</string>
+        </dict>
+       </array>
+    </dict>
+  </dict>
+</dict>
+</plist>
